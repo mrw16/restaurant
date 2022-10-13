@@ -39,7 +39,7 @@ class ProfilePage extends StatelessWidget {
                       Text(
                         '@ujang123',
                         style: primaryTextStyle.copyWith(
-                          fontSize: 16,
+                          fontSize: 14,
                         ),
                       ),
                     ],

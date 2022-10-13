@@ -56,7 +56,10 @@ class WishlistPage extends StatelessWidget {
               Container(
                 height: 44,
                 child: OutlinedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, '/home', (route) => false);
+                  },
                   style: OutlinedButton.styleFrom(
                     padding: EdgeInsets.symmetric(
                       vertical: 10,
